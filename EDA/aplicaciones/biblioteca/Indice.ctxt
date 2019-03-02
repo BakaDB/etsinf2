@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=nombreLibro\ noLinea
+comment0.target=Indice(java.lang.String,\ int)
+comment1.params=
+comment1.target=java.lang.String\ toString()
+numComments=2

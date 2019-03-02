@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=boolean\ testFactorCarga()
+comment1.text=\n\ Comprueba\ el\ metodo\ factorCarga\ de\ TablaHash\n\ @return\ \ True\ si\ el\ metodo\ es\ correcto\n
+comment2.params=
+comment2.target=boolean\ testRehashing()
+comment2.text=\n\ Comprueba\ el\ metodo\ rehashing\ de\ TablaHash\n\ @return\ \ True\ si\ el\ metodo\ es\ correcto\n
+comment3.params=
+comment3.target=boolean\ testClaves()
+comment3.text=\n\ Comprueba\ el\ metodo\ claves\ de\ TablaHash\n\ @return\ \ True\ si\ el\ metodo\ es\ correcto\n
+comment4.params=old
+comment4.target=int\ nuevaCapacidad(int)
+comment5.params=n
+comment5.target=int\ siguientePrimo(int)
+comment6.params=n
+comment6.target=boolean\ esPrimo(int)
+numComments=7

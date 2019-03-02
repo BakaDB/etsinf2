@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Pool2
+comment0.text=\n\ Max\ 2\ kids\ per\ instructor\n
+comment1.params=ki\ cap
+comment1.target=void\ init(int,\ int)
+comment2.params=
+comment2.target=void\ kidSwims()
+comment3.params=
+comment3.target=void\ kidRests()
+comment4.params=
+comment4.target=void\ instructorSwims()
+comment5.params=
+comment5.target=void\ instructorRests()
+comment5.text=\n\ Fallo\ division\ por\ 0\n
+numComments=6

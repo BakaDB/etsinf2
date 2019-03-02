@@ -1,0 +1,8 @@
+#! /bin/bash 
+# delete
+if [ -e $1 ] && [ -f $1 ]
+then
+  	rm $1
+else
+  	echo "FileNotFound"
+fi

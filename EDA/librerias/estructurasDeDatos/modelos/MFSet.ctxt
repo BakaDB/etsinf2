@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=i
+comment0.target=int\ find(int)
+comment0.text=\ Devuelve\ el\ identificador\ de\ la\ clase\ de\ equivalencia\n-subconjunto-\ al\ que\ pertence\ el\ elemento\ i.
+comment1.params=i\ j
+comment1.target=void\ merge(int,\ int)
+comment1.text=\ Une\ las\ clases\ de\ equivalencia\ subconjuntos-\ a\ las\ que\ pertenecen\nlos\ elementos\ i\ y\ j,\ excepto\ si\ i\ y\ j\ ya\ estan\ en\ la\ misma\ clase.
+numComments=2

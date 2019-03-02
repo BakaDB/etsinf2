@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=l
+comment0.target=librerias.estructurasDeDatos.modelos.ListaConPI\ palsFrecuenciaUno(librerias.estructurasDeDatos.modelos.ListaConPI)
+comment0.text=\n\ Devuelve\ una\ ListaConPI\ con\ aquellas\ palabras\ de\ la\ lista\ l\n\ cuyas\ frecuencias\ de\ aparicion\ en\ una\ coleccion\ de\ libros\ son\ \n\ iguales\ a\ uno.\ Si\ ninguna\ palabra\ de\ l\ cumple\ dicha\ condicion,\ o\ \n\ l\ esta\ vacia,\ el\ metodo\ debe\ devolver\ una\ lista\ vacia.\n
+comment1.params=
+comment1.target=IndexadorEx()
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

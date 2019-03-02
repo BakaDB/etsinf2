@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=numV
+comment0.target=GrafoNoDirigido(int)
+comment0.text=\ Crea\ un\ grafo\ No\ Dirigido\ vacio\ con\ numV\ vertices.\ \n\ \n\ @param\ numV\ \ Numero\ de\ vertices\ del\ grafo\n
+comment1.params=numV\ arcos
+comment1.target=GrafoNoDirigido(int,\ Arista[])
+comment1.text=\ Crea\ un\ grafo\ No\ Dirigido\ con\ numV\ vertices\ y\ cuyas\n\ aristas\ son\ las\ componentes\ del\ array\ arcos.\n\ \n\ \ @param\ numV\ \ Numero\ de\ vertices\ \n\ \ @param\ arcos\ Array\ con\ las\ aristas\ del\ grafo\n
+comment2.params=i\ j
+comment2.target=void\ insertarArista(int,\ int)
+comment2.text=\ Si\ no\ esta,\ inserta\ la\ arista\ (i,\ j)\ en\ un\ grafo\ No\ Dirigido\ \ \n\ y\ No\ Ponderado;\ por\ tanto,\ tambien\ inserta\ la\ arista\ (j,\ i).\n\n\ \ @param\ i\ \ \ \ Vertice\ origen\n\ \ @param\ j\ \ \ \ Vertice\ destino\n
+comment3.params=i\ j\ p
+comment3.target=void\ insertarArista(int,\ int,\ double)
+comment3.text=\ Si\ no\ esta,\ inserta\ la\ arista\ (i,\ j)\ de\ peso\ p\ en\ un\ grafo\ \ \n\ No\ Dirigido\ y\ Ponderado;\ por\ tanto,\ tambien\ inserta\ la\ arista\ \n\ \ (j,\ i)\ de\ peso\ p.\n\n\ @param\ i\ \ \ \ Vertice\ origen\n\ @param\ j\ \ \ \ Vertice\ destino\n\ @param\ p\ \ \ \ Peso\ de\ (i,\ j)\n
+numComments=4

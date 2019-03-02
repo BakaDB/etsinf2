@@ -1,0 +1,8 @@
+#!/bin/bash 
+echo The number of arguments is: $#    
+echo The entered command line is: $0 $@  
+echo The command arguments are: 
+for i in "$@"
+do  
+    echo $i
+done    

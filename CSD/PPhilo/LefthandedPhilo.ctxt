@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=LefthandedPhilo
+comment0.text=\n\ 1.\ Philosophers\ always\ take\ first\ the\ chopstick\ on\ their\ right\ and\ then\ \n\ the\ chopstick\ on\ their\ left,\ except\ for\ philosopher\ 4,\ who\ takes\ the\ \n\ chopstick\ on\ his\ left\ first.\n\ \n\ 2.\ Even-numbered\ philosophers\ take\ the\ chopstick\ on\ their\ right\ first,\ while\ \ \n\ odd-numbered\ philosophers\ start\ by\ taking\ the\ chopstick\ on\ their\ left.\ \n
+comment1.params=id\ cycles\ delay\ table
+comment1.target=LefthandedPhilo(int,\ int,\ int,\ Table)
+comment2.params=
+comment2.target=void\ run()
+numComments=3

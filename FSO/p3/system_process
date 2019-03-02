@@ -1,0 +1,16 @@
+#! /bin/bash 
+# sys
+
+echo -e "PID\tPPID\tSTATE\tCOMMAND"
+PIDS=$(ps -u | awk '{print $2}') 
+echo $PIDS
+for i in "${PIDS[@]}" -1
+do
+	a=$i
+	
+	PID=$PIDS[$i]
+	PP=$(cat /proc/$i/status | grep PPid | awk '{print $2}')
+	S=$(cat /proc/$i/status | grep State | awk '{print $2}')
+	C=$(cat /proc/$i/cmdline)
+	echo -e "$i\t$PP\t$S\t$C"
+done

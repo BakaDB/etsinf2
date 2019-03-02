@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=c\ v
+comment0.target=java.lang.Object\ insertar(java.lang.Object,\ java.lang.Object)
+comment1.params=c
+comment1.target=java.lang.Object\ eliminar(java.lang.Object)
+comment2.params=c
+comment2.target=java.lang.Object\ recuperar(java.lang.Object)
+comment3.params=
+comment3.target=boolean\ esVacio()
+comment4.params=
+comment4.target=int\ talla()
+comment5.params=
+comment5.target=ListaConPI\ claves()
+comment6.params=
+comment6.target=double\ factorCarga()
+comment6.text=\n\ \ \ \ int\ []\ histograma();\n
+comment7.params=
+comment7.target=double\ desviacionTipica()
+numComments=8

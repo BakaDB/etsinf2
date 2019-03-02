@@ -1,0 +1,8 @@
+#! /bin/bash 
+# inf
+PID=$1
+PP=$(cat /proc/$1/status | grep PPid | awk '{print $2}')
+S=$(cat /proc/$1/status | grep State | awk '{print $2}')
+C=$(cat /proc/$1/cmdline)
+echo -e "PID\tPPID\tSTATE\tCOMMAND"
+echo -e "$1\t$PP\t$S\t$C"

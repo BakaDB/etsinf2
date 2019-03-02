@@ -1,0 +1,20 @@
+#! /bin/bash 
+# sys
+
+PIDS=$(ps -u | awk '/kate / {print $2}')
+echo $PIDS
+for i in "${PIDS[@]}"
+do
+	if i<2
+	then
+	min=$i
+	else
+		if $min>$i
+		then
+			min=$i
+		fi
+	fi
+done
+
+$(kill $i)
+

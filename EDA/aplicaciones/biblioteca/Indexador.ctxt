@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=listaLibros\ tallaAprox
+comment0.target=Indexador(java.lang.String,\ int)
+comment0.text=\ Construye\ un\ indexador\ a\ partir\ de\ los\ textos\ cuyos\ nombres\ se\ encuentran\n\ \ en\ listaLibros.\n\ \ @param\ \ \ String\ listaLibros,\ nombre\ del\ fichero\ que\ contiene\ la\ lista\ de\ documentos\n\ \ @param\ \ \ int\ tallaAprox,\ numero\ aproximado\ de\ terminos\ a\ considerar\n\ \ @throws\ \ FileNotFoundException\ si\ no\ se\ encuentra\ algun\ fichero\ \n
+comment1.params=fichLibro\ separadores
+comment1.target=boolean\ cargarLibro(java.lang.String,\ java.lang.String)
+comment1.text=\ Actualiza\ el\ Indexador\ con\ los\ datos\ del\ documento\ nombreLibro\ que\n\ \ se\ encuentra\ en\ el\ directorio\ dir.\ Si\ no\ existe\ el\ documento,\ no\ hace\ nada.\n\ \ @param\ \ \ String\ fichLibro,\ nombre\ del\ fichero\ que\ contiene\ el\ documento\n\ \ @param\ \ \ String\ dir,\ nombre\ del\ directorio\ donde\ se\ encuentra\ el\ documento\n\ \ @return\ \ boolean,\ true\ si\ el\ libro\ se\ ha\ leido\ con\ exito\ y\ falso\ en\ caso\ contrario\n
+comment2.params=pal
+comment2.target=librerias.estructurasDeDatos.modelos.ListaConPI\ indiceDe(java.lang.String)
+comment2.text=\n\ Devuelve\ una\ ListaConPI\ con\ la\ representaci\u00F3n\ textual\n\ del\ libro\ y\ pagina\ (Indice)\ en\ los\ que\ aparece\ el\ termino\n\ @param\ \ \ String\ a\ buscar\n\ @return\ ListaConPI<String>\n
+comment3.params=s
+comment3.target=boolean\ esTermino(java.lang.String)
+comment3.text=\ Comprueba\ si\ el\ String\ s\ es\ un\ termino\ valido\n\ es\ decir,\ si\ es\ una\ secuencia\ de\ letras\n
+numComments=4
